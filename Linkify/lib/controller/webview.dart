@@ -19,9 +19,9 @@ class WebContainer extends StatefulWidget {
   WebContainerState createState() => WebContainerState();
 }
 var urlForAuth = "https://accounts.spotify.com/authorize?client_id=80c5fa373a4f4ef793721969b1e25fac&response_type=code&redirect_uri=https://prakash2001.000webhostapp.com/start&show_dialog=true&scope=user-read-private+user-read-email+user-top-read+user-modify-playback-state+user-read-playback-position+user-library-read+streaming+user-read-playback-state+user-read-recently-played+playlist-read-private+user-read-currently-playing";
-var clientId = "80c5fa373a4f4ef793721969b1e25fac";
-var clientSecret = "a58469d7127d4690ab1dcb4f706c0dbe";
-var redirect_uri1 = "https://prakash2001.000webhostapp.com/start";
+var clientId = "";
+var clientSecret = "";
+var redirect_uri1 = "";
 
 class WebContainerState extends State<WebContainer> {
   int _dstReached=0;
